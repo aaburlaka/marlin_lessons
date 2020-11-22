@@ -35,7 +35,7 @@
                            <div class="d-flex flex-wrap demo demo-h-spacing mt-3 mb-3">
 <?
 	$persons = [
-		1 => [
+		[
 			'name' => 'Sunny',
 			'short' => 'A.',
 			'photo' => 'sunny.png',
@@ -44,7 +44,7 @@
 			'twitter' => '@myplaneticket',
 			'wrapbootstrap' => 'myorange'
 		],
-		2 => [
+		[
 			'name' => 'Jos',
 			'short' => 'K.',
 			'photo' => 'josh.png',
@@ -53,7 +53,7 @@
 			'twitter' => '@atlantez',
 			'wrapbootstrap' => 'Walapa'
 		],
-		3 => [
+		[
 			'name' => 'Jovanni',
 			'surname' => 'Lo',
 			'short' => 'L.',
@@ -63,7 +63,7 @@
 			'twitter' => '@lodev09',
 			'wrapbootstrap' => 'lodev09'
 		],
-		4 => [
+		[
 			'name' => 'Roberto',
 			'short' => 'R.',
 			'photo' => 'roberto.png',
