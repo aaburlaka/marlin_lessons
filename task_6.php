@@ -37,6 +37,7 @@
 	$persons = [
 		[
 			'name' => 'Sunny',
+			'surname' => '',
 			'short' => 'A.',
 			'photo' => 'sunny.png',
 			'skill' => 'UI/UX Expert',
@@ -47,6 +48,7 @@
 		],
 		[
 			'name' => 'Jos',
+			'surname' => '',
 			'short' => 'K.',
 			'photo' => 'josh.png',
 			'skill' => 'ASP.NET Developer',
@@ -68,6 +70,7 @@
 		],
 		[
 			'name' => 'Roberto',
+			'surname' => '',
 			'short' => 'R.',
 			'photo' => 'roberto.png',
 			'skill' => 'Rails Developer',
@@ -79,6 +82,19 @@
 
 	];
 
+/*
+export data as CSV for PHPmyAdmin import
+
+	foreach ($persons as $key => $data) {
+		echo (++$key);
+		foreach ($data as $field) {
+			echo ',"'.$field.'"';
+		}
+		echo "<br>\n";
+	}
+
+*/
+//*
 	foreach ($persons as $man) {
 		if (!$man['surname'])
 			$man['surname'] = $man['short'];
@@ -99,7 +115,7 @@
                             </div>
 <?
 	}
-
+//*/
 ?>
                         </div>
                         </div>
