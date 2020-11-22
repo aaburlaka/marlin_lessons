@@ -83,7 +83,7 @@
 	];
 
 /*
-export data as CSV for PHPmyAdmin import
+	// export data as CSV for PHPmyAdmin import
 
 	foreach ($persons as $key => $data) {
 		echo (++$key);
@@ -93,7 +93,9 @@ export data as CSV for PHPmyAdmin import
 		echo "<br>\n";
 	}
 
-*/
+//*/
+
+
 //*
 	foreach ($persons as $man) {
 		if (!$man['surname'])
