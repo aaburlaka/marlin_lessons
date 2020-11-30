@@ -154,9 +154,7 @@ INSERT INTO `users` VALUES
 			'email' => $_POST['email']
 		]);
 		$result = $sth->fetchAll(PDO::FETCH_ASSOC);
-echo '<pre>'."\n";
-print_r($result);
-echo '</pre>'."\n";
+
 		return $result;
 	}
 
